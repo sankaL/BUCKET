@@ -1,0 +1,19 @@
+login
+Enter username: testAA
+
+You are now logged in as testAA
+User type --> Admin
+addcredit
+Username: testFS
+Amount of credit:
+10.00
+NOTICE: Adding credit successful
+logout
+User: testAA now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+exit
+TICKETING SERVICE TERMINATED!
+
+logout4_daily_transaction.exp
+02 testUser_admin AA 0001000.00
+00

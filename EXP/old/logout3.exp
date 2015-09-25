@@ -1,0 +1,12 @@
+login
+Enter username: testAA
+
+You are now logged in as testAA
+User type --> Admin
+logout
+You are now logged out.
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+create
+Error: Sorry, you need be logged in before performing any transactions!
+exit
+TICKETING SERVICE TERMINATED!

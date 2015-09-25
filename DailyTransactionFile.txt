@@ -1,0 +1,171 @@
+00
+01 test5           FS 01000.000
+00
+00
+00
+00
+00
+00
+00
+00
+00
+06 testBS          BS 00010.000
+00
+00
+00
+01 test1           AA 00200.000
+00
+01 test2           FS 00500.000
+00
+01 test2           BS 00100.000
+00
+01 test2           SS 00100.000
+00
+00
+00
+01 testUser        BS 00100.000
+00
+00
+00
+02 ttttt           AA 000000.00
+00
+00
+02 lakshani        FS 000000.00
+00
+00
+00
+03 event1          testSS          004 030.00
+00
+03 event1          testAA          004 030.00
+00
+03 event1          testFS          004 030.00
+00
+00
+00
+00
+03 event1          testAA          004 030.00
+00
+00
+00
+00
+04 event1          testAA          002 078.00
+00
+04 event1          testFS          002 078.00
+00
+00
+00
+00
+04 event1          testBS          002 078.00
+00
+00
+04 event1          testFS          002 078.00
+00
+05 david           lakshani        000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testBS          000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testSS          000500.00
+00
+00
+06 testFS          FS 00010.000
+00
+00
+06 testFS          FS 00100.000
+00
+00
+04 event1          testAA          002 078.00
+00
+00
+03 newEvent        testAA          004 069.00
+00
+05 testBS          testSS          000090.00
+00
+06 testFS          FS 00100.000
+00
+00
+00
+00
+00
+00
+00
+00
+00
+06 testBS          BS 00010.000
+00
+00
+00
+01 test1           AA 00200.000
+00
+01 test2           FS 00500.000
+00
+01 test2           BS 00100.000
+00
+01 test2           SS 00100.000
+00
+00
+00
+01 testUser        BS 00100.000
+00
+00
+00
+02 ttttt           AA 000000.00
+00
+00
+02 lakshani        FS 000000.00
+00
+00
+00
+03 event1          testSS          004 030.00
+00
+03 event1          testAA          004 030.00
+00
+03 event1          testFS          004 030.00
+00
+00
+00
+00
+03 event1          testAA          004 030.00
+00
+00
+00
+00
+04 event1          testAA          002 078.00
+00
+04 event1          testFS          002 078.00
+00
+00
+00
+00
+04 event1          testBS          002 078.00
+00
+00
+04 event1          testFS          002 078.00
+00
+05 david           lakshani        000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testBS          000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testSS          000200.00
+00
+05 david           testSS          000500.00
+00
+00
+06 testFS          FS 00010.000
+00
+00
+06 testFS          FS 00100.000
+00

@@ -1,0 +1,11 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testAA
+User type --> Admin
+Username: Amount of credit: 
+ERROR: Credit amount exeeds maximum credit allowed! (max: $1000.00), Please try again.
+Amount of credit: 
+NOTICE: Adding credit unsucessful!
+User: testAA now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

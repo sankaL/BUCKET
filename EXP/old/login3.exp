@@ -1,0 +1,11 @@
+login
+Enter Username: sankalpa
+You are now logged in as sankalpa
+User type --> Admin
+login
+Error: Sorry,cannot login when a user is already logged in!
+logout
+User: sankalpa now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+exit
+TICKETING SERVICE TERMINATED!

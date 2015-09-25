@@ -1,0 +1,8 @@
+--- /home/Sanke/BUCKET/RUN/delete3.rrn	2014-11-20 22:39:14.719600800 -0500
++++ /home/Sanke/BUCKET/EXP/delete3.exp	2014-11-20 22:40:02.622107900 -0500
+@@ -7,3 +7,4 @@
+ User: testAA now logged out!
+ <------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+ TICKETING SERVICE TERMINATED!
++adsfads
+\ No newline at end of file

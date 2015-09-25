@@ -1,0 +1,69 @@
+#!/bin/bash
+# My first script
+
+# This script runs the program and feeds it the input files in ./INP 
+# Stores the output of the run in ./RUN
+
+# define path variables
+currentPath=$(pwd)
+inputDir="$currentPath/INP"
+rundir="$currentPath/RUN"
+
+rm -rf "$rundir"
+mkdir "$rundir"
+
+# run the login testcases
+number=1
+while [ $number -le 8 ]; do
+    java -jar ticketV3.jar < $inputDir/login$number.inp > $rundir/login$number.rrn
+    number=$((number + 1))
+done
+
+# run the logout testcases
+number=1
+while [ $number -le 4 ]; do
+    java -jar ticketV3.jar < $inputDir/logout$number.inp > $rundir/logout$number.rrn
+    number=$((number + 1))
+done
+
+# run the create testcases
+number=1
+while [ $number -le 9 ]; do
+    java -jar ticketV3.jar < $inputDir/create$number.inp > $rundir/create$number.rrn
+    number=$((number + 1))
+done
+
+# run the delete testcases
+number=1
+while [ $number -le 5 ]; do
+    java -jar ticketV3.jar < $inputDir/delete$number.inp > $rundir/delete$number.rrn
+    number=$((number + 1))
+done
+
+# run the sell testcases
+number=1
+while [ $number -le 9 ]; do
+    java -jar ticketV3.jar < $inputDir/sell$number.inp > $rundir/sell$number.rrn
+    number=$((number + 1))
+done
+
+# run the buy testcases
+number=1
+while [ $number -le 11 ]; do
+    java -jar ticketV3.jar < $inputDir/buy$number.inp > $rundir/buy$number.rrn
+    number=$((number + 1))
+done
+
+# run the refund testcases
+number=1
+while [ $number -le 7 ]; do
+    java -jar ticketV3.jar < $inputDir/refund$number.inp > $rundir/refund$number.rrn
+    number=$((number + 1))
+done
+
+# run the addcredit testcases
+number=1
+while [ $number -le 4 ]; do
+    java -jar ticketV3.jar < $inputDir/addcredit$number.inp > $rundir/addcredit$number.rrn
+    number=$((number + 1))
+done

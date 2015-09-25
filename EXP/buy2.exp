@@ -1,0 +1,10 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testSS
+User type --> Sell Standard
+ERROR: User "testSS" --> [TYPE: Sell Standard] does not have permission to buy a event ticket! 
+NOTICE: Ticket purchase failed!
+Unknown transaction
+User: testSS now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

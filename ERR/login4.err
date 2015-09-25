@@ -1,0 +1,8 @@
+--- /home/Sanke/BUCKET/RUN/login4.rrn	2014-11-20 22:39:12.516455000 -0500
++++ /home/Sanke/BUCKET/EXP/login4.exp	2014-11-20 22:40:10.535946100 -0500
+@@ -5,3 +5,4 @@
+ User: testAA now logged out!
+ <------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+ TICKETING SERVICE TERMINATED!
++asfasf
+\ No newline at end of file

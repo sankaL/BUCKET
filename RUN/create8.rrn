@@ -1,0 +1,9 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testAA
+User type --> Admin
+Enter New Username: ERROR: Username "testBS" exists in system, Please try another username
+Enter New Username: NOTICE: User creation failed!
+User: testAA now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

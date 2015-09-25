@@ -1,0 +1,12 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testBS
+User type --> Buy Standard
+Enter Event Title: Enter number of tickets: 
+Enter Sellers Username: 
+Message: cost of ticket is 78.0, and total cost of ticket is $156.0
+Please Confirm Purchase(Y/N)? 
+NOTICE: You have successfully bought ticket(s)!
+User: testBS now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

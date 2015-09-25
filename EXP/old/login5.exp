@@ -1,0 +1,9 @@
+login
+Enter Username: testFS
+You are now logged in as testFS
+User type --> Full Standard 
+logout
+User: testFS now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+exit
+TICKETING SERVICE TERMINATED!

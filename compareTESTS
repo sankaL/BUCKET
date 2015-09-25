@@ -1,0 +1,89 @@
+#!/bin/bash
+
+# This script compares the files in ./EXP dir to ./RUN and stores the output 
+# (if there are any differences) # in ./ERR Prints results at the end
+# 0 tests should fail
+
+# define path variables
+currentPath=$(pwd)
+expDir="$currentPath/EXP"
+runDir="$currentPath/RUN"
+errDir="$currentPath/ERR"
+
+# removes ERR directory if it already exists
+rm -rf "$errDir"
+mkdir "$errDir"
+
+# compares the login	 testcases
+number=1
+while [ $number -le 8 ]; do
+    diff -u -b $runDir/login$number.rrn $expDir/login$number.exp > $errDir/login$number.err
+    number=$((number + 1))
+done
+
+# compares the logout testcases
+number=1
+while [ $number -le 4 ]; do
+    diff -u -b $runDir/logout$number.rrn $expDir/logout$number.exp > $errDir/logout$number.err
+    number=$((number + 1))
+done
+
+
+# compares the create testcases
+number=1
+while [ $number -le 9 ]; do
+    diff -u -b $runDir/create$number.rrn $expDir/create$number.exp > $errDir/create$number.err
+    number=$((number + 1))
+done
+
+
+# compares the delete testcases
+number=1
+while [ $number -le 4 ]; do
+    diff -u -b $runDir/delete$number.rrn $expDir/delete$number.exp > $errDir/delete$number.err
+    number=$((number + 1))
+done
+
+# compares the sell testcases
+number=1
+while [ $number -le 9 ]; do
+    diff -u -b $runDir/sell$number.rrn $expDir/sell$number.exp > $errDir/sell$number.err
+    number=$((number + 1))
+done
+
+# compares the buy testcases
+number=1
+while [ $number -le 11 ]; do
+    diff -u -b $runDir/buy$number.rrn $expDir/buy$number.exp > $errDir/buy$number.err
+    number=$((number + 1))
+done
+
+# compares the refund testcases
+number=1
+while [ $number -le 7 ]; do
+    diff -u -b $runDir/refund$number.rrn $expDir/refund$number.exp > $errDir/refund$number.err
+    number=$((number + 1))
+done
+
+# compares the addcredit testcases
+number=1
+while [ $number -le 4 ]; do
+    diff -u -b $runDir/addcredit$number.rrn $expDir/addcredit$number.exp > $errDir/addcredit$number.err
+    number=$((number + 1))
+done
+
+# get the number of total number of testcases
+total=$(ls -l $errDir | wc -l)
+
+# prints the results
+echo 
+echo ----------------------------RESULTS----------------------------
+echo 
+echo 
+echo failed TESTCASES:
+echo 
+find $errDir -not -empty -ls
+echo 
+echo ---------------------------------------------------------------
+echo 
+echo "TOTAL TESTCASES --> $total"

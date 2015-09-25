@@ -1,0 +1,9 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testFS
+User type --> Full Standard
+ERROR: User "testFS" --> [TYPE: Full Standard] does not have permission to remove a user account! 
+NOTICE: User removal failed!
+User: testFS now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

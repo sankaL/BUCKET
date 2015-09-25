@@ -1,0 +1,11 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testFS
+User type --> Full Standard
+Enter Event Title: Enter number of tickets: 
+Error: Sorry, you do not have the authority to buy more than 4 tickets, Please try again.
+Enter number of tickets: 
+NOTICE: Ticket purchase failed!
+User: testFS now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

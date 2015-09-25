@@ -1,0 +1,11 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testAA
+User type --> Admin
+Username: Amount of credit: 
+NOTICE: Adding credit successful
+User: testAA now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+ERROR: Sorry, you need to be logged in before performing any transactions!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!

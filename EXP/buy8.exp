@@ -1,0 +1,12 @@
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+Enter username: 
+You are now logged in as testFS
+User type --> Full Standard
+Enter Event Title: Enter number of tickets: 
+Enter Sellers Username: 
+Error: Sorry, seller: seller4 does not have enough tickets left!! Try a lower number
+NOTICE: Ticket purchase failed!
+Unknown transaction
+User: testFS now logged out!
+<------------------------- WELCOME TO THE TICKETING SERVICE! PLEASE LOG IN ------------------------->
+TICKETING SERVICE TERMINATED!
